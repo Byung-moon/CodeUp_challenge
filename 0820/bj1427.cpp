@@ -1,5 +1,5 @@
 // 1427
-// ¹®Á¦ ÃâÃ³ : https://www.acmicpc.net/problem/1427
+// ë¬¸ì œ ì¶œì²˜ : https://www.acmicpc.net/problem/1427
 #include <iostream>
 #include <vector>
 #include <queue>
@@ -16,16 +16,16 @@ int main()
 
     while (1)
     {
-        digitNum = newNum%10;   // ÀÏÀÇ ÀÚ¸® ¼ýÀÚ »Ì¾Æ³»±â
-        //cout <<  "digitNum : " << digitNum << '\n';
+        digitNum = newNum%10;   // ì¼ì˜ ìžë¦¬ ìˆ«ìž ë½‘ì•„ë‚´ê¸°
+        //cout <<  "digitNum : " << digitNum << '\n';   // ì¶œë ¥ í™•ì¸
 
-        sortedNum.push_back(digitNum);  // »Ì¾Æ³½ ¼ýÀÚ º¤ÅÍ¿¡ »ðÀÔ
-        newNum = newNum / 10;   // ÀÚ¸´¼ö ÁÙÀÌ±â
-        //cout << "newNum : " << newNum << '\n';
+        sortedNum.push_back(digitNum);              // ë½‘ì•„ë‚¸ ìˆ«ìž ë²¡í„°ì— ì‚½ìž…
+        newNum = newNum / 10;                       // ìžë¦¿ìˆ˜ ì¤„ì´ê¸°
+        //cout << "newNum : " << newNum << '\n';    // ìƒˆë¡œìš´ ìˆ˜ ì¶œë ¥ í™•ì¸
 
         if (newNum < 10 && newNum != 0)
         {
-            sortedNum.push_back(newNum);    // ÃÖ»ó´Ü ÀÚ¸® ¼ö »ðÀÔ
+            sortedNum.push_back(newNum);    // ìµœìƒë‹¨ ìžë¦¬ ìˆ˜ ì‚½ìž…
             break;
         }
         else if(newNum == 0)
