@@ -1,5 +1,6 @@
-// 11651 ÁÂÇ¥ Á¤·ÄÇÏ±â 2
-// ¹®Á¦ ¸µÅ© : https://www.acmicpc.net/problem/11651
+// 11651 ì¢Œí‘œ ì •ë ¬í•˜ê¸° 2
+// ë¬¸ì œ ë§í¬ : https://www.acmicpc.net/problem/11651
+// ë°±ì¤€
 
 #include <iostream>
 #include <vector>
@@ -18,7 +19,7 @@ int main()
     for (int i = 0; i < N; i++)
     {
         cin >> x >> y;
-        spaceVec.push_back(make_pair(y,x)); // yÁÂÇ¥ ¼øÀ¸·Î Á¤·ÄÇÏ±â À§ÇØ y¸¦ firstÀÎÀÚ·Î ¹ŞÀ½
+        spaceVec.push_back(make_pair(y,x)); // yì¢Œí‘œ ìˆœìœ¼ë¡œ ì •ë ¬í•˜ê¸° ìœ„í•´ yë¥¼ firstì¸ìë¡œ ë°›ìŒ
     }
 
     sort(spaceVec.begin(), spaceVec.end());
